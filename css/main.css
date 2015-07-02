@@ -1,0 +1,135 @@
+/* Custom web fonts */
+/* Font style for headings */
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+
+/* Font style for text */
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300);
+
+/* Body and sections styling */
+body {
+	font-family: 'Lato',  'Helvetica Neue', 'Helvetica', sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.container-fluid {
+	margin-top:0px;
+	margin-bottom:0px;
+}
+
+main {
+	margin:0px;
+	background-image:url(../img/ricepaper_v3.png);
+	opacity:0.9;
+}
+
+header {
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom: 5px solid #EA4A00;
+	color: #FFFFFF;
+}
+
+header p {
+	font-size:120%;
+	margin:0px;
+	color:#EEEEEE;
+	display:none;
+}
+
+section {
+	padding:1em;	
+}
+
+#menu {
+	background-color: rgba(207, 205, 140, 0.5);
+}
+
+/* Hyperlink styling */
+a:link, a:visited {
+	text-decoration:none;
+	color:#55E;
+}
+
+a:hover, a:focus {
+	color: #00E;
+}
+
+
+/* Heading styling */
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica', sans-serif;
+	font-weight:300;
+}
+
+h1 {
+	font-size:300%;
+	margin:0px;
+}
+
+h2 {
+	color:#505050;
+	font-size:150%;
+	margin:0px;
+}
+
+h3 {
+	color:#505050;
+	font-size:125%;
+}
+
+/* Navigation styling */
+nav ul {
+	margin:0px;
+	padding:0px;
+}
+
+nav ul li {
+	list-style:none;
+	display:inline-block;
+	margin-right:1em;
+	
+}
+
+/* Description list styling */
+dt {
+	font-weight:400;	
+}
+
+dd{
+	font-size: 80%;
+	font-style: italic;
+	margin: 0em 0em 1em 1em;
+}
+
+footer {
+	padding:1em;
+	background-color:#FC892F;
+	border-top: 5px solid #EC791F;
+	font-size:80%;
+	text-align:right;
+}
+
+/* Styling for devices with screens 992 pixels and larger */
+@media screen and (min-width: 992px) {
+	body {
+		background-image: url(../img/background.jpg);
+		background-size: 100% 100%;
+		background-attachment: fixed;
+		font-size:18px;
+	}
+	
+	.container-fluid {
+		margin:20px 20px 20px 30%;
+	}
+	
+	header p {
+		display:inline-block;
+	}
+	
+	nav {
+		position:absolute;
+		top: 10px;
+		right:10px;
+	}
+}
